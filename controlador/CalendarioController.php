@@ -132,8 +132,7 @@ class calendarioController{
 	}
 
 	// Evaluar los datos que ingresa el usuario y eliminamos caracteres no deseados.
-    function evaluar($valor)
-    {
+    function evaluar($valor){
         $nopermitido = array("'",'\\','<','>',"\"");
         $valor = str_replace($nopermitido, "", $valor);
         return $valor;

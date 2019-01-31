@@ -1,4 +1,4 @@
-<div class="container" style="margin-top: 80px">
+<div class="container" style="margin-top: 80px;">
     <div class="jumbotron">
         <h2>registro de estudiantes</h2>
         

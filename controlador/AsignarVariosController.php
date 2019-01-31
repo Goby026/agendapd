@@ -23,7 +23,7 @@ class AsignarVariosController{
         }
 
         function index(){
-            if (count($_REQUEST['cbCola']) > 0 ) {                
+            if (count($_REQUEST['cbCola']) > 0 ) {
                 $col = array();
                 foreach ($_REQUEST['cbCola'] as $value) {
                     $col[] =$this->model_col->get_by_dni($value);
